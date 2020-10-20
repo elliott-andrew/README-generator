@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const api = ("./api")
 const generateMarkdown = require("./generateMarkdown");
 const { title } = require("process");
+inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
 
 // array of questions for user
 const questions = [
@@ -15,14 +16,16 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "How would you describe your project?"
+        message: "Please write a short description of your project:"
 
     },
     {
-        type: "input",
+        type: "suggest",
         name: "installation",
-        message: "What should I know when installing this?"
-    }, {
+        message: "What command should I run to install dependencies?",
+        suggestions: ['npm i']
+    },
+    {
         type: "input",
         name: "usage",
         message: "Any usage examples?"
@@ -39,31 +42,45 @@ const questions = [
         message: "Are there contributing notes?"
     },
     {
-        type: "input",
-        name: "tests",
-        message: "How would a user test this?"
+        type: "suggest",
+        name: "test",
+        message: "What command should be run to run tests?",
+        suggestions: ["npm test"]
     },
     {
         type: "input",
         name: "questions",
-        message: "Where should people contact your for questions?"
+        message: "Contact for questions?"
     },
     {
         type: "input",
         name: "github",
         message: "What is your GitHub username?"
     },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
+    }
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+
+function writeToFile(response) {
+    let fileName = "README.md";
+    fs.writeFile(fileName, JSON.stringify(response, null, "\t"),
+        function (err) {
+            if (err) {
+                return console.log(err);
+            } console.log("Success!")
+        })
 
 }
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((response) => {
-        console.log(response);
+        writeToFile(response);
     })
 }
 
