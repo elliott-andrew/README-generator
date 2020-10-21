@@ -1,6 +1,6 @@
 
   
-  ![Badge for License](https://img.shields.io/badge/License-MIT20%License-green)
+  ![Badge for License](https://img.shields.io/badge/License-MIT%20License-green)
 
   # README Generator
   ## Description

@@ -5,7 +5,7 @@ function generateMarkdown(response) {
   badgeURL();
   function badgeURL() {
     let license = response.license;
-    newBadgeURL = license.split(" ").join("20%");
+    newBadgeURL = license.split(" ").join("%20");
   }
   return `
   
