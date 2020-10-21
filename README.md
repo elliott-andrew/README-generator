@@ -1,6 +1,6 @@
 # README Generator
   ## Description
-  Generate a README file over the command line using user input.
+  Generate a README file on the command line using user input.
 
   ## Table of Contents
   - [Usage](#Usage)
@@ -9,10 +9,9 @@
   - [Contributing](#Contributing)
   - [License](#License)
   - [Questions](#Questions)
-  - [Contact](#Contact)
 
   ## Usage
-  This README is an example of usage.
+  This README is an example of it's usage.
 
   ## Test
   npm test
@@ -27,8 +26,4 @@
   MIT License
 
   ## Questions
-  You can contact me by email or on GitHub.
-  
-  ## Contact
   Contact me by email at andrewjc.elliott@gmail.com, or on GitHub at [@elliott-andrew](https://www.github.com/elliott-andrew)
-  

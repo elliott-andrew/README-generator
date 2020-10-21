@@ -11,7 +11,6 @@ function generateMarkdown(response) {
   - [Contributing](#Contributing)
   - [License](#License)
   - [Questions](#Questions)
-  - [Contact](#Contact)
 
   ## Usage
   ${response.usage}
@@ -29,11 +28,7 @@ function generateMarkdown(response) {
   ${response.license}
 
   ## Questions
-  ${response.questions}
-  
-  ## Contact
-  Contact me by email at ${response.email}, or on GitHub at [@${response.github}](https://www.github.com/${response.github})
-  `;
+  Contact me by email at ${response.email}, or on GitHub at [@${response.github}](https://www.github.com/${response.github})`;
 }
 
 module.exports = generateMarkdown;
