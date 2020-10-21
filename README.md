@@ -1,6 +1,6 @@
 # README Generator
   ## Description
-  Automatically generate a README file based on user input.
+  Automatically build a README file based on user input.
   ## Usage
   This README file is an example of usage.
   ## Test
@@ -14,5 +14,5 @@
   ## Questions
   You can contact me by email or on GitHub.
   ## Contact
-  Contact me by email at andrewjc.elliott@gmail.com, or on GitHub at @elliott-andrew
+  Contact me by email at andrewjc.elliott@gmail.com, or on GitHub at [@elliott-andrew](https://www.github.com/{response.github})
   
