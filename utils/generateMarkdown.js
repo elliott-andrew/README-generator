@@ -3,6 +3,8 @@ function generateMarkdown(response) {
   return `# ${response.title}
   ## Description
   ${response.description}
+  ## Table of Contents
+  *[Installation](#Installation)
   ## Usage
   ${response.usage}
   ## Test
