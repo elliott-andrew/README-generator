@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const api = ("./api")
 const generateMarkdown = require("./generateMarkdown");
 const { title } = require("process");
+const fileName = "README.md"
 inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
 
 // array of questions for user
@@ -65,22 +66,22 @@ const questions = [
 ];
 
 // function to write README file
-
-function writeToFile(response) {
-    let fileName = "README.md";
-    fs.writeFile(fileName, JSON.stringify(response, null, "\t"),
-        function (err) {
-            if (err) {
-                return console.log(err);
-            } console.log("Success!")
-        })
+function writeToFile(fileName, response) {
+    // Writes the README file
+    fs.writeFile(fileName, response, function (err) {
+        // if error
+        if (err) {
+            return console.log(err);
+            // if success
+        } console.log("Success!")
+    })
 
 }
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((response) => {
-        writeToFile(response);
+        writeToFile(fileName, generateMarkdown(response));
     })
 }
 

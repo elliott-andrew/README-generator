@@ -1,21 +1,21 @@
 // function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title},
-  ## "Description",
+  ## Description,
   ${response.description},
-  ## "Usage",
+  ## Usage,
   ${response.usage},
-  ## "Test",
+  ## Test,
   ${response.test},
-  ## "Installation",
+  ## Installation,
   ${response.installation},
-  ## "Contributing",
+  ## Contributing,
   ${response.contributing},
-  ## "License",
+  ## License,
   ${response.license},
-  ## "Questions",
+  ## Questions,
   ${response.questions},
-  ## "Contact"
+  ## Contact
   ${response.email} ${response.github},
 
   
