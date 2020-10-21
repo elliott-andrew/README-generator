@@ -16,7 +16,7 @@ function generateMarkdown(response) {
   ## Questions
   ${response.questions}
   ## Contact
-  Contact me by email at ${response.email}, or on GitHub at [@${response.github}](https://www.github.com/{response.github})
+  Contact me by email at ${response.email}, or on GitHub at [@${response.github}](https://www.github.com/${response.github})
   `;
 }
 
