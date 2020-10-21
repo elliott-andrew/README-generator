@@ -1,18 +1,18 @@
 # README Generator
   ## Description
-  Automatically generate a README file based on user input
+  Automatically generate a README file based on user input.
   ## Usage
-  This README file
+  This README is an example of usage.
   ## Test
   npm test
   ## Installation
   npm i
   ## Contributing
-  Have fun
+  Have fun.
   ## License
   MIT License
   ## Questions
-  Contact me on GitHub
+  You can contact me by email or GitHub
   ## Contact
-  andrewjc.elliott@gmail.com elliott-andrew
+  Contact me by email at andrewjc.elliott@gmail.com, or on GitHub at @elliott-andrew
   
