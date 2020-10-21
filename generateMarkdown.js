@@ -16,10 +16,7 @@ function generateMarkdown(response) {
   ## Questions,
   ${response.questions},
   ## Contact
-  ${response.email} ${response.github},
-
-  
-  
+  ${response.email} ${response.github}
   `;
 }
 
