@@ -6,7 +6,6 @@ const fileName = "README.md"
 // Modules
 const api = ("./api")
 const generateMarkdown = require("./utils/generateMarkdown");
-const { title } = require("process");
 inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
 
 // array of questions for user
