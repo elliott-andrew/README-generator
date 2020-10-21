@@ -1,9 +1,10 @@
 
-  ![Badge for License](https://img.shields.io/badge/License-MIT License-green)
   
+  ![Badge for License](https://img.shields.io/badge/License-MIT20%License-green)
+
   # README Generator
   ## Description
-  Generate a README file using the command line and user input.
+  Generate a README file using the command line and user input. The user is given options to include a title, description, usage, testing, installation, contribution, licence and questions. Their responses are then generated in a README file, their email and GitHub accounts are linked and a license button is generated at the top of the README.
 
   ## Table of Contents
   - [Usage](#Usage)
@@ -14,7 +15,7 @@
   - [Questions](#Questions)
 
   ## Usage
-  This README is an example of it's usage. 
+  This README is an example of it's usage.
 
   ## Test
   npm test

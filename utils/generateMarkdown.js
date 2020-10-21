@@ -1,8 +1,16 @@
+let newBadgeURL;
+
 // function to generate markdown for README
 function generateMarkdown(response) {
+  badgeURL();
+  function badgeURL() {
+    let license = response.license;
+    newBadgeURL = license.split(" ").join("20%");
+  }
   return `
-  ![Badge for License](https://img.shields.io/badge/License-${response.license}-green)
   
+  ![Badge for License](https://img.shields.io/badge/License-${newBadgeURL}-green)
+
   # ${response.title}
   ## Description
   ${response.description}
