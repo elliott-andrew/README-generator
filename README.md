@@ -1,8 +1,14 @@
 # README Generator
   ## Description
-  Automatically generate a README file with user input
+  Automatically generate a README file with user input.
   ## Table of Contents
-  *[Installation](#Installation)
+  • [Usage](#Usage)
+  • [Test](#Test)
+  • [Installation](#Installation)
+  • [Contributing](#Contributing)
+  • [License](#License)
+  • [Questions](#Questions)
+  • [Contact](#Contact)
   ## Usage
   This README is an example of it's usage.
   ## Test
