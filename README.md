@@ -31,3 +31,7 @@
 
   ## Questions
   Contact me by email at andrewjc.elliott@gmail.com, or on GitHub at [@elliott-andrew](https://www.github.com/elliott-andrew)
+  
+  ## Preview
+  ![Gif of app in use](https://raw.githubusercontent.com/elliott-andrew/readMe-generator/main/assets/README-example.gif)
+  Full video of app in use located in assets folder.
