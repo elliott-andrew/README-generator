@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const api = ("./api")
-const generateMarkdown = require("./generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 const { title } = require("process");
 const fileName = "README.md"
 inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
