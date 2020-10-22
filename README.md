@@ -15,13 +15,15 @@
   - [Questions](#Questions)
 
   ## Usage
-  This README is an example of it's usage.
+  After installing dependencies, run ```node index``` 
+  Answer the prompts with as much detail as possible. 
+  Your questions section, table of contents and license badge will generate automatically.
 
   ## Test
-  npm test
+ ```npm test``` 
 
   ## Installation
-  npm i
+  ```npm i``` 
 
   ## Contributing
   No notes. Have fun.
