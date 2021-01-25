@@ -27,6 +27,7 @@
   ## Usage
   ```bash 
   ? What is your project title? README Generator
+  ? How is your project started? npm start
   ```
 
   ## Contributing
