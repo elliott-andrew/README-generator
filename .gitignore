@@ -1,6 +1,0 @@
-node_modules
-package-lock.json
-LICENSE
-.DS_Store
-.gitignore
-.vscode
