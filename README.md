@@ -25,7 +25,7 @@
   npm start
 
   ## Usage
-  ```shell 
+  ```bash 
   ? What is your project title? README Generator
   ```
 
