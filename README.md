@@ -29,6 +29,7 @@
   ? What is your project title? README Generator
   ? How is your project started? npm start
   ```
+![https://github.com/elliott-andrew/README-generator/blob/main/assets/README-example.gif?raw=true](https://github.com/elliott-andrew/README-generator/blob/main/assets/README-example.gif?raw=true)
 
   ## Contributing
   Fork it and have fun!
