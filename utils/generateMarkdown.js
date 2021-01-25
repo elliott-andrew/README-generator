@@ -16,21 +16,25 @@ function generateMarkdown(response) {
   ${response.description}
 
   ## Table of Contents
-  - [Usage](#Usage)
-  - [Test](#Test)
   - [Installation](#Installation)
+  - [Test](#Test)
+  - [Start](#Start)
+  - [Usage](#Usage)
   - [Contributing](#Contributing)
   - [License](#License)
   - [Questions](#Questions)
 
-  ## Usage
-  ${response.usage}
+  ## Installation
+  ${response.installation}
 
   ## Test
   ${response.test}
 
-  ## Installation
-  ${response.installation}
+  ## Start
+  ${response.start}
+
+  ## Usage
+  ${response.usage}
 
   ## Contributing
   ${response.contributing}

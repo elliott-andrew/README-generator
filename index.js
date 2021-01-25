@@ -8,7 +8,7 @@ const api = ("./api")
 const generateMarkdown = require("./utils/generateMarkdown");
 inquirer.registerPrompt('suggest', require('inquirer-prompt-suggest'));
 
-// array of questions for user
+// Array of questions for user
 const questions = [
     {
         type: "input",
@@ -29,15 +29,21 @@ const questions = [
         suggestions: ['npm i']
     },
     {
+        type: "suggest",
+        name: "test",
+        message: "What command should be run to run tests?",
+        suggestions: ["npm test"]
+    },
+    {
+        type: "suggest",
+        name: "start",
+        message: "What command should be run to start the program?",
+        suggestions: ["npm start"]
+    },
+    {
         type: "input",
         name: "usage",
         message: "Any usage examples?"
-    },
-    {
-        type: "list",
-        name: "license",
-        message: "What kind of license will you use?",
-        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1"]
     },
     {
         type: "input",
@@ -45,10 +51,10 @@ const questions = [
         message: "Are there contributing notes?"
     },
     {
-        type: "suggest",
-        name: "test",
-        message: "What command should be run to run tests?",
-        suggestions: ["npm test"]
+        type: "list",
+        name: "license",
+        message: "What kind of license will you use?",
+        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1"]
     },
     {
         type: "input",
