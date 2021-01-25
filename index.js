@@ -47,6 +47,16 @@ const questions = [
     },
     {
         type: "input",
+        name: "workingLink",
+        message: "Provide the URL to the working site:"
+    },
+    {
+        type: "input",
+        name: "githubLink",
+        message: "Provide the URL to the github repo:"
+    },
+    {
+        type: "input",
         name: "contributing",
         message: "Are there contributing notes?"
     },
