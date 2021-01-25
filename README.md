@@ -25,7 +25,9 @@
   npm start
 
   ## Usage
-  `? What is your project title? README Generator`
+  ```javascript 
+  ? What is your project title? README Generator
+  ```
 
   ## Contributing
   Fork it and have fun!
