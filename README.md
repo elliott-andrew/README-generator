@@ -4,30 +4,34 @@
 
   # README Generator
   ## Description
-  Generate a README file using the command line and user input. The user is given options to include a title, description, usage, testing, installation, contribution, licence and questions. Their responses are then generated in a README file, their email and GitHub accounts are linked and a license button is generated at the top of the README.
+  Generate a README file using the command line and user input. The program will prompt the user to provide a title, description, usage, testing, installation, contribution, license, and questions. Responses are taken and inserted into a README file, their email and GitHub accounts are linked, and the program will place a license button at the top of the README.
 
   ## Table of Contents
-  - [Usage](#Usage)
-  - [Test](#Test)
   - [Installation](#Installation)
+  - [Test](#Test)
+  - [Start](#Start)
+  - [Usage](#Usage)
   - [Contributing](#Contributing)
   - [License](#License)
   - [Questions](#Questions)
 
-  ## Usage
-  This README is an example of it's usage.
+  ## Installation
+  npm i
 
   ## Test
   npm test
 
-  ## Installation
-  npm i
+  ## Start
+  npm start
+
+  ## Usage
+  `? What is your project title? README Generator`
 
   ## Contributing
-  No notes. Have fun.
+  Fork it and have fun!
 
   ## License
   MIT License
 
   ## Questions
-  Contact me by email at andrewjc.elliott@gmail.com, or on GitHub at [@elliott-andrew](https://www.github.com/elliott-andrew)
+  Contact me by email at andrew@elliottandrew.com, or on GitHub at [@elliott-andrew](https://www.github.com/elliott-andrew)
